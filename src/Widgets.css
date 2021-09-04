@@ -1,0 +1,27 @@
+.widgets {
+    flex: 0.3;
+}
+
+.widgets__searchIcon {
+    color: gray;
+}
+
+.widgets__input>input {
+    border: none;
+    outline: none;
+    background-color: var(--twitter-background-color);
+    text-align: center;
+}
+
+.widgets__widgetContainer>h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widgets__widgetContainer>h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
